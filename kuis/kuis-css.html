@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kuis CSS</title>
+    <style>
+        body {
+            background-color: rgb(255, 253, 238);
+        }
+
+        h1 {
+            text-align: center;
+            color: rgb(68, 29, 11);
+        }
+
+        table {
+            margin: auto auto;
+            border: 1px solid;
+            border-collapse: collapse;
+            background-color: white;
+        }
+
+        td,th {
+            border: 1px solid;
+            padding: 8px;
+        }
+
+        th {
+            background-color: rgb(255, 223, 228);
+            color: rgb(68, 29, 11);
+            border-color: black;
+        }
+
+        .total {
+            text-align: right;
+            font-weight: bold;
+        }
+
+        .ttl {
+            font-weight: bold;
+        }
+    </style>
+</head>
+
+<body>
+    <section>
+        <p>
+            <b>Nama:</b> Nur Nafisah Azizah
+            <br>
+            <b>NIM:</b> E030425140
+        </p>
+        <hr>
+        <br>
+        <h1>Daftar Harga Layanan</h1>
+        <table>
+            <thead>
+                    <th>No</th>
+                    <th>Paket Layanan</th>
+                    <th>Kategori</th>
+                    <th>Harga</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>
+                        <center>1</center>
+                    </td>
+                    <td>Landing Page UMKM</td>
+                    <td>Web Development</td>
+                    <td>Rp 1.500.000</td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>2</center>
+                    </td>
+                    <td>Logo & Branding</td>
+                    <td>Graphic Design</td>
+                    <td>Rp 500.000</td>
+                </tr>
+                <tr>
+                    <td>
+                        <center>3</center>
+                    </td>
+                    <td>website Bisnis Full</td>
+                    <td>Web Development</td>
+                    <td>Rp 3.500.000</td>
+                </tr>
+                <tr>
+                    <td colspan="3" class="total">Total Biaya</td>
+                    <td class="ttl">Rp 5.500.000</td>
+                </tr>
+            </tbody>
+        </table>
+    </section>
+</body>
+
+</html>
