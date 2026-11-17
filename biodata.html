@@ -1,61 +1,121 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="id">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PROFIL BIODATA MAHASISWA</title>
+    <title>Profil Biodata Mahasiswa - Poliban Digicraft</title>
+    <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
+    <!-- HEADER & NAVIGASI -->
+    <header>
+        <div class="container">
+            <h1>Poliban Digicraft</h1>
+            <p>Solusi Transformasi Bisnis Digital Anda di Banjarmasin</p>
+            <nav>
+                <a href="biodata.html" class="active">Tentang Founder</a> |
+                <a href="produk.html">Katalog Jasa & Paket Harga</a> |
+                <a href="kontak.html">Kontak & Pemesanan</a>
+            </nav>
+        </div>
+    </header>
+    <hr>
 
-    <h1>PROFIL BIODATA MAHASISWA</h1>
+    <!-- MAIN CONTENT -->
+    <main class="container">
 
-    <!--Bagian Profil Utama-->
-    <div>
-        <h2>Profil Utama</h2>
+        <!-- BAGIAN 1: PROFIL UTAMA & PENGENALAN SINGKAT (HERO) -->
+        <section id="about" class="founder-hero" style="margin-top: 30px;">
+            <div class="founder-info">
+                <span class="founder-badge">Founder Profile</span>
+                <h2>PROFIL SINGKAT</h2>
 
-        <p>
-            <span>Nama:</span>
-            <strong>Nur Nafisah Azizah </strong>
-        </p>
+                <p style="margin-bottom: 18px;">
+                    Nur Nafisah Azizah adalah mahasiswa D4 Bisnis Digital di Politeknik Negeri Banjarmasin sekaligus
+                    Founder dari Poliban Digicraft. Berfokus pada perpaduan strategi bisnis digital, digital
+                    illustration, dan graphic design, ia mendedikasikan keahliannya untuk merancang solusi visual yang
+                    tidak hanya estetis, tetapi juga bernilai fungsional tinggi bagi pengembangan merek modern.
+                </p>
 
-        <p>
-            <span>NIM:</span>
-            <em>E030425140</em>
-        </p>
+                <p><span>Nama:</span> <b>Nur Nafisah Azizah</b></p>
+                <p><span>NIM:</span> <i>E030425140</i></p>
+                <p><span>Program Studi:</span> D4 Bisnis Digital</p>
+                <p><span>Kelas:</span> 3E Bisnis Digital</p>
 
-        <p>
-            <span>Program Studi:</span>
-            D4 Bisnis Digital
-        </p>
+                <!-- Tautan 4 Media Sosial -->
+                <div class="founder-actions">
+                    <a href="https://instagram.com/meeozee" target="_blank" class="btn-outline">Instagram</a>
+                    <a href="https://tiktok.com/@meozee" target="_blank" class="btn-outline">TikTok</a>
+                    <a href="https://vgen.co/meozee" target="_blank" class="btn-outline">Vgen</a>
+                    <a href="https://twitter.com/meeeozee" target="_blank" class="btn-outline">Twitter</a>
+                </div>
+            </div>
 
-        <p>
-            <span>Kelas:</span>
-            3E Bisnis Digital
-        </p>
-    </div>
+            <!-- Ganti src dengan nama file foto profilmu -->
+            <img src="ART05019.JPG" alt="Foto Nur Nafisah Azizah" class="founder-photo">
+        </section>
 
-    <!-- Bagian Riwayat Pendidikan -->
-    <div>
-        <h2>Riwayat Pendidikan</h2>
-        
-        <ol>
-            <li>SD: SDN 3 Banjarmasin</li>
-            <li>SMP: SMPN 3 Banjarmasin</li>
-            <li>SMA: SMAN 3 Banjarmasin</li>
-            <li>Perguruan Tinggi: Politeknik Negeri Banjarmasin</li>
-        </ol>
-    </div>
+        <!-- BAGIAN: PENDIDIKAN, MINAT & KEAHLIAN (Gaya Katalog) -->
+        <section id="experience" class="section">
+            <h2 class="section-title">Pendidikan, Minat & Keahlian</h2>
+            <p class="section-subtitle">Latar belakang pendidikan formal serta bidang kreatif yang ditekuni</p>
 
-    <!-- Bagian Hobi dan Minat-->
-    <div>
-        <h2>Hobi dan Minat</h2>
-        <ul>
-            <li>Menggambar secara digital</li>
-            <li>Menonton film</li>
-            <li>Bermain game</li>
-        </ul>
-    </div>
+            <div class="catalog-container">
+                <!-- Item 1: Riwayat Pendidikan -->
+                <div class="catalog-item">
+                    <div class="catalog-header">
+                        <h3>Riwayat Pendidikan Formal</h3>
+                    </div>
+                    <div class="catalog-body">
+                        <ul class="timeline-list horizontal-timeline">
+                            <li><span class="timeline-year">SD:</span> SDN 3 Banjarmasin</li>
+                            <li><span class="timeline-year">SMP:</span> SMPN 3 Banjarmasin</li>
+                            <li><span class="timeline-year">SMA:</span> SMAN 3 Banjarmasin</li>
+                            <li><span class="timeline-year">Perguruan Tinggi:</span> Politeknik Negeri Banjarmasin (D4
+                                Bisnis Digital)</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <!-- Item 2: Hobi & Minat Kreatif -->
+                <div class="catalog-item">
+                    <div class="catalog-header">
+                        <h3>Hobi & Minat Kreatif</h3>
+                    </div>
+                    <div class="catalog-body">
+                        <p class="catalog-desc">Bidang seni visual dan aktivitas hiburan yang digemari sehari-hari:</p>
+                        <div class="skill-tags">
+                            <span class="tag">Digital Illustration</span>
+                            <span class="tag">Graphic Design</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Item 3: Keahlian & Software -->
+                <div class="catalog-item">
+                    <div class="catalog-header">
+                        <h3>Keahlian & Software</h3>
+                    </div>
+                    <div class="catalog-body">
+                        <p class="catalog-desc">Perangkat lunak penunjang karya visual:</p>
+                        <div class="skill-tags">
+                            <span class="tag">ibisPaintX</span>
+                            <span class="tag">Canva</span>
+                            <span class="tag">CapCut</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p align="center">&copy; 2026 Poliban Digicraft Studio - Hak Cipta Dilindungi Undang-undang.</p>
+    </footer>
 
 </body>
+
 </html>
